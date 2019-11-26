@@ -1,0 +1,174 @@
+/*!
+Theme Name: honeyHome
+Theme URI: http://underscores.me/
+Author: Kamal Uddin
+Author URI: https://anasbinkml-it.com
+Description: This Theme is create and develop for use of real state and building management company
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: honeyhome
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+honeyHome is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+.form-group br {
+    display: none;
+}
+
+.p-color-bg input {
+    position: absolute;
+    width: 5% !important;
+    top: 0;
+    right: 0;
+    background: yellow;
+}
+.p-color-bg i {
+    position: absolute;
+    right: 16px;
+    top: 12px;
+}
+.comment-author.vcard {
+    float: left;
+}
+.comment-author.vcard img{
+	border-radius: 50%;
+}
+.comment-meta{
+	background: #fff;
+}
+.comment p {
+	color: #999;;
+}
+.comment a {
+   color: #999;
+}
+
+.reply {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.reply {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: 
+    #f2af00;
+}
+.reply a {
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fn {
+    text-transform: capitalize;
+}
+.comment-body{
+	position: relative;
+}
+
+.parent .odd{
+	margin-left:50px;
+}
+.parent .even{
+	margin-left:100px;
+}
+.comment-box-full{
+	margin-bottom:30px;
+}
+.comment-box-full textarea{
+background: #f9f9f9 none repeat scroll 0 0;}
+
+.form-submit input {
+    float: left;
+}
+.comment-box-half {
+    margin-left: 10px;
+}
+.form-submit {
+    margin-left: 25px;
+}
+.main-nav.dark.transparent.stick-fixed.js-transparent {
+    padding-top: 30px;
+}
+
+.main-nav.dark.stick-fixed.small-height {
+    padding-top: 0;
+}
+.main-nav.dark.stick-fixed {
+    padding-top: 30px;
+}
+
+.pagination .current a {
+    background: #f2af00!important;
+}
+.nav-menu-css {
+    position: absolute!important;
+    top: -10px;
+    right: -250px;
+}
+.nav-menu-css input{
+    background: transparent;
+}
+
+.p-color-bg i {
+position: absolute;
+right: 52px;
+top: 8px;
+}
+.small-height .nav-menu-css{
+    padding-top:28px;
+}
+.small-height .p-color-bg i{
+    padding-top:28px;
+}
+
+.page-header.pt-3 {
+    padding-top: 50px;
+}
